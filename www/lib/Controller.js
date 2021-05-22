@@ -1,0 +1,7 @@
+angular.module('app.controller', [])
+.controller('Index',['$scope','$window','srv',Index])
+.controller('HomePage',['$scope','$rootScope','$interval','$timeout','$window','srv',HomePage])
+.controller('LossProfit',['$scope','$window','srv',LossProfit])
+.controller('CurrentOrders',['$scope','$rootScope','$interval','$timeout','$window','srv',CurrentOrders])
+.controller('OrderHistory',['$scope','$rootScope','$interval','$timeout','$window','srv',OrderHistory])
+.controller('ApiOptions',['$scope','$rootScope','$interval','$timeout','$window','srv',ApiOptions])

@@ -1,0 +1,43 @@
+<div ng-controller="ApiOptions" ng-init="Init()">
+    <div class="panel">
+        <div class="panel-heading">
+          <h3 class="panel-title">API BİLGİNİZİ GİRİN</h3>
+        </div>
+        <div class="panel-body container-fluid">
+          <div class="row row-lg">
+            <div class="col-12">
+                <div class="nav-tabs-horizontal" data-plugin="tabs">
+                  <!-- <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" data-toggle="tab" href="#exampleTabsOne" aria-controls="exampleTabsOne" role="tab">Binance API</a></li>
+                  </ul> -->
+                  <div class="tab-content pt-20">
+                    <div class="tab-pane active" id="Binance" role="tabpanel">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group form-material floating" data-plugin="formMaterial">
+                                    <input type="text" class="form-control empty text-center" ng-model = "APIKEY">
+                                    <label class="floating-label">API KEY</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group form-material floating" data-plugin="formMaterial">
+                                    <input type="text" class="form-control empty text-center" ng-model = "APISECRET">
+                                    <label class="floating-label">API SECRET</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-xl-4 col-sm-12 offset-xl-8 offset-lg-8">
+                                <button type="button" class="btn btn-block btn-primary" ng-click = "BtnConfigSave()">Kaydet</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

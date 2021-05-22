@@ -1,0 +1,32 @@
+<service>
+	<id>deleteplusbitcoinanalytics.exe</id>
+	<name>DeletePlus-BitcoinAnalytics</name>
+	<description>DeletePlus-BitcoinAnalytics</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>D:\Mahir Gündüz Projeler\BINANCE-API\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>D:\Mahir Gündüz Projeler\BINANCE-API\server.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>DeletePlus-BitcoinAnalytics wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<env name="APP_DIR_PATH" value="D:\Mahir Gündüz Projeler\BINANCE-API\setup"/>
+	<serviceaccount>
+		<domain>MAHIR</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>D:\Mahir Gündüz Projeler\BINANCE-API\setup</workingdirectory>
+</service>
